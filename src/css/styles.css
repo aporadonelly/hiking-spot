@@ -52,6 +52,7 @@ body {
   padding: 2rem;
   flex-grow: 1;
   margin: 0 2rem 2rem 2rem;
+  border-radius: '10px';
 }
 .figure .single-photo {
   flex-basis: calc(33.333% - 4rem);
@@ -62,6 +63,7 @@ body {
   border: 1px solid #d3d3d3;
   background: #fff;
   position: relative;
+  border-radius: '10px';
 }
 .single-photo {
   max-width: 1000px;

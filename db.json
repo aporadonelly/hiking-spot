@@ -1,42 +1,34 @@
 {
   "logs": [
     {
-      "_id": "5d177aca45e7b70016fba61f",
-      "message": "MOUNT PICO DE LORO",
-      "temperature": "231c",
-      "location": "DENR Ternate, Cavite",
-      "height": 680,
-      "difficulty": 3,
-      "about": "Mt. Palay-Palay, or as it’s more commonly called, Mt. Pico De Loro, is one of the best spots near Manila for mountain climbing activities. It’s currently closed for rehabilitation but, when it opens, it’s definitely a must-hike.",
-      "duration": "4 to 5 hours",
-      "water": 2,
-      "image": "http://www.pinoymountaineer.com/wp-content/uploads/2016/09/12606870_1219948824686169_633148945_n-2.jpg",
-      "date": "2019-06-29T14:50:50.921Z",
-      "__v": 0
+      "id": "5e79816e6c4cf10016c38088",
+      "name": "Picolo",
+      "image": "https://lh3.googleusercontent.com/proxy/El8F1dl9BvnQG9mfIbrwffdOYMdzkW_Jq4IBckc2o1KncguFafLm5Vm_qpMfZsllS2GnnqHyulH9Z_-F1cHODPC4o5x7EkWK3Vo5SLHEaoHc3sXHZc74jnuj_V47vHE",
+      "date": "2020-03-24T07:42:45.953Z"
     },
     {
-      "id": 4,
-      "message": "MOUNT PULAG",
-      "image": "https://www.mountain-forecast.com/system/images/4157/large/Mount-Pulag.jpg?1338012586",
-      "date": "2019-05-31T19:57:35.544Z"
+      "name": "Manila Bay",
+      "image": "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": "2020-03-24T06:23:03.054Z",
+      "id": "7vazGIf"
     },
     {
-      "message": "MOUNT ULAP",
-      "image": "http://www.pinoymountaineer.com/wp-content/uploads/2015/11/12295453_10154368837273082_8354020486204341191_n.jpg",
-      "date": "2020-03-24T03:07:15.700Z",
-      "id": 5
+      "name": "Manila Bay",
+      "image": "https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg",
+      "date": "2020-03-24T06:28:48.140Z",
+      "id": "UGo-Y_d"
     },
     {
-      "message": "Manila",
-      "image": "http://www.pinoymountaineer.com/wp-content/uploads/2016/09/12606870_1219948824686169_633148945_n-2.jpg",
-      "date": "2020-03-24T04:40:29.449Z",
-      "id": 6
+      "name": "Batanes",
+      "image": "https://cdn.pixabay.com/photo/2017/03/14/17/43/mountain-2143877_960_720.jpg",
+      "date": "2020-03-24T07:33:39.454Z",
+      "id": "yYtwVHp"
     },
     {
-      "message": "Cebu",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fmountain%2F&psig=AOvVaw3aGqjTcFJeRBqWllT9JOBD&ust=1585111261280000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjist-lsugCFQAAAAAdAAAAABAD",
-      "date": "2020-03-24T04:41:16.796Z",
-      "id": 7
+      "name": "Cebu",
+      "image": "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": "2020-03-24T07:33:56.157Z",
+      "id": "-qIoRkN"
     }
   ]
 }

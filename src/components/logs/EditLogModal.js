@@ -5,22 +5,24 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 import { updateLog } from '../../actions/logActions';
 
 const EditLogModal = ({ current, updateLog }) => {
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState('');
+  const [image, setImage] = useState('');
 
   useEffect(() => {
     if (current) {
-      setMessage(current.message);
+      setName(current.name);
+      setImage(current.image);
     }
   }, [current]);
 
   const onSubmit = () => {
-    if (message === '') {
+    if (name === '') {
       M.toast({ html: 'Please enter Hiking Spot name' });
     } else {
       const updLog = {
         id: current.id,
-        message,
-
+        name,
+        image,
         date: new Date()
       };
 
@@ -28,22 +30,33 @@ const EditLogModal = ({ current, updateLog }) => {
       M.toast({ html: 'Hiking Spot updated' });
 
       // Clear Fields
-      setMessage('');
+      setName('');
     }
   };
 
   return (
     <div id='edit-log-modal' className='modal' style={modalStyle}>
       <div className='modal-content'>
-        <h4>Enter System Log</h4>
-        <div className='row'>
+        <h4>Edit Hiking Post</h4>
+        <div className='row '>
           <div className='input-field'>
             <input
               type='text'
-              name='message'
-              value={message}
-              onChange={e => setMessage(e.target.value)}
+              name='name'
+              value={name}
+              onChange={e => setName(e.target.value)}
             />
+          </div>
+          <div className='input-field'>
+            <input
+              type='text'
+              name='image'
+              value={image}
+              onChange={e => setImage(e.target.value)}
+            />
+            <label htmlFor='image' className='active'>
+              Hiking Spot Image
+            </label>
           </div>
         </div>
 

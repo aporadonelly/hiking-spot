@@ -5,15 +5,15 @@ import { addLog } from '../../actions/logActions';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddLogModal = ({ addLog }) => {
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState('');
   const [image, setImage] = useState('');
 
   const onSubmit = () => {
-    if (message === '') {
+    if (name === '') {
       M.toast({ html: 'Please enter hiking spots.' });
     } else {
       const newLog = {
-        message,
+        name,
         image,
         date: new Date()
       };
@@ -23,7 +23,7 @@ const AddLogModal = ({ addLog }) => {
       M.toast({ html: 'Hiking spot added.' });
 
       // Clear Fields
-      setMessage('');
+      setName('');
       setImage('');
     }
   };
@@ -36,9 +36,9 @@ const AddLogModal = ({ addLog }) => {
           <div className='input-field'>
             <input
               type='text'
-              name='message'
-              value={message}
-              onChange={e => setMessage(e.target.value)}
+              name='name'
+              value={name}
+              onChange={e => setName(e.target.value)}
             />
             <label htmlFor='message' className='active'>
               Hiking Spot
