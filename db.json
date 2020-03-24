@@ -1,34 +1,10 @@
 {
   "logs": [
     {
-      "name": "Manila Bay",
+      "id": 2,
+      "name": "Manila ",
       "image": "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "date": "2020-03-24T06:23:03.054Z",
-      "id": "7vazGIf"
-    },
-    {
-      "name": "Manila Bay",
-      "image": "https://cdn.mos.cms.futurecdn.net/ntFmJUZ8tw3ULD3tkBaAtf.jpg",
-      "date": "2020-03-24T06:28:48.140Z",
-      "id": "UGo-Y_d"
-    },
-    {
-      "name": "Batanes",
-      "image": "https://cdn.pixabay.com/photo/2017/03/14/17/43/mountain-2143877_960_720.jpg",
-      "date": "2020-03-24T07:33:39.454Z",
-      "id": "yYtwVHp"
-    },
-    {
-      "name": "Cebu",
-      "image": "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "date": "2020-03-24T07:33:56.157Z",
-      "id": "-qIoRkN"
-    },
-    {
-      "name": "Test",
-      "image": "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "date": "2020-03-24T08:20:56.562Z",
-      "id": "dJRbRuU"
+      "date": "2020-03-24T13:41:27.392Z"
     }
   ]
 }
