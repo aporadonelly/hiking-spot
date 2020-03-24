@@ -14,10 +14,7 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
 
   return (
     <figure className='figure'>
-      <img
-        className='photo'
-        src='https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
-      />
+      <img className='photo' src={log.image} />
       <figcaption>
         <a
           href='#edit-log-modal'

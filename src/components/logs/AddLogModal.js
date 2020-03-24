@@ -6,6 +6,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddLogModal = ({ addLog }) => {
   const [message, setMessage] = useState('');
+  const [image, setImage] = useState('');
 
   const onSubmit = () => {
     if (message === '') {
@@ -13,7 +14,7 @@ const AddLogModal = ({ addLog }) => {
     } else {
       const newLog = {
         message,
-
+        image,
         date: new Date()
       };
 
@@ -23,6 +24,7 @@ const AddLogModal = ({ addLog }) => {
 
       // Clear Fields
       setMessage('');
+      setImage('');
     }
   };
 
@@ -40,6 +42,17 @@ const AddLogModal = ({ addLog }) => {
             />
             <label htmlFor='message' className='active'>
               Hiking Spot
+            </label>
+          </div>
+          <div className='input-field'>
+            <input
+              type='text'
+              name='image'
+              value={image}
+              onChange={e => setImage(e.target.value)}
+            />
+            <label htmlFor='message' className='active'>
+              Hiking Spot Image
             </label>
           </div>
         </div>

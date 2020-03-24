@@ -11,14 +11,14 @@ const SearchBar = ({ searchLogs }) => {
   };
 
   return (
-    <nav style={{ marginBottom: '30px' }} className='blue'>
+    <nav style={{ marginBottom: '30px' }} className='pink'>
       <div className='nav-wrapper'>
         <form>
           <div className='input-field'>
             <input
               id='search'
               type='search'
-              placeholder='Search Logs..'
+              placeholder='Search Hiking Spots...'
               ref={text}
               onChange={onChange}
             />
@@ -37,7 +37,4 @@ SearchBar.propTypes = {
   searchLogs: PropTypes.func.isRequired
 };
 
-export default connect(
-  null,
-  { searchLogs }
-)(SearchBar);
+export default connect(null, { searchLogs })(SearchBar);

@@ -1,20 +1,42 @@
 {
   "logs": [
     {
-      "message": "Silay",
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z",
-      "id": 3
+      "_id": "5d177aca45e7b70016fba61f",
+      "message": "MOUNT PICO DE LORO",
+      "temperature": "231c",
+      "location": "DENR Ternate, Cavite",
+      "height": 680,
+      "difficulty": 3,
+      "about": "Mt. Palay-Palay, or as it’s more commonly called, Mt. Pico De Loro, is one of the best spots near Manila for mountain climbing activities. It’s currently closed for rehabilitation but, when it opens, it’s definitely a must-hike.",
+      "duration": "4 to 5 hours",
+      "water": 2,
+      "image": "http://www.pinoymountaineer.com/wp-content/uploads/2016/09/12606870_1219948824686169_633148945_n-2.jpg",
+      "date": "2019-06-29T14:50:50.921Z",
+      "__v": 0
     },
     {
       "id": 4,
-      "message": "Sipalay",
+      "message": "MOUNT PULAG",
+      "image": "https://www.mountain-forecast.com/system/images/4157/large/Mount-Pulag.jpg?1338012586",
       "date": "2019-05-31T19:57:35.544Z"
     },
     {
-      "message": "Cebu",
+      "message": "MOUNT ULAP",
+      "image": "http://www.pinoymountaineer.com/wp-content/uploads/2015/11/12295453_10154368837273082_8354020486204341191_n.jpg",
       "date": "2020-03-24T03:07:15.700Z",
       "id": 5
+    },
+    {
+      "message": "Manila",
+      "image": "http://www.pinoymountaineer.com/wp-content/uploads/2016/09/12606870_1219948824686169_633148945_n-2.jpg",
+      "date": "2020-03-24T04:40:29.449Z",
+      "id": 6
+    },
+    {
+      "message": "Cebu",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fmountain%2F&psig=AOvVaw3aGqjTcFJeRBqWllT9JOBD&ust=1585111261280000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjist-lsugCFQAAAAAdAAAAABAD",
+      "date": "2020-03-24T04:41:16.796Z",
+      "id": 7
     }
   ]
 }
